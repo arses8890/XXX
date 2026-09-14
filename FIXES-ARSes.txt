@@ -1,0 +1,9 @@
+Arses Spider Panel - fixes
+
+- Fixed missing Worker helper functions that caused /api/sub/<username> to return HTTP 500.
+- Subscription/config retrieval now works for normal users and Worker users.
+- Added clipboard fallback for HTTP/non-secure browser contexts.
+- Generated config remarks use Arses branding.
+- No fake status entry is copied by the dashboard config-copy action.
+
+Important: actual network connectivity still depends on the deployment environment, public domain/DNS, TLS termination/certificates, and the selected inbound being configured correctly.
